@@ -121,7 +121,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 1024px) {
   .why--details--container {
     flex-direction: row;
     gap: 20px;

@@ -125,9 +125,9 @@
   background: rgba(0, 0, 0, 0.75);
 }
 
-@media (min-width: 481px) {
+@media (min-width: 780px) {
   .get--in--touch--container {
-    grid-template-rows: 300px;
+    grid-template-rows: 400px;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
   }

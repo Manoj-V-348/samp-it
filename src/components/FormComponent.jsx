@@ -53,13 +53,13 @@ function FormComponent() {
 
         <a
           className="social--media"
-          href="https://www.linkedin.com/in/manoj-v-38a047220/"
+          href="https://www.linkedin.com/company/samp-it/"
         >
           <img src={linkedin} alt="" className="social--img" />
           <p className="social--name">LinkedIn</p>
         </a>
 
-        <a className="social--media" href="https://twitter.com/home">
+        <a className="social--media" href="https://twitter.com/samp_it_offl">
           <img src={x} alt="" className="social--img" />
           <p className="social--name">X</p>
         </a>

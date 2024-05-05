@@ -92,7 +92,7 @@ button:hover {
   cursor: pointer;
 }
 
-@media (min-width: 481px) {
+@media (min-width: 780px) {
   .form--container {
     grid-template-rows: 500px;
     grid-template-columns: 1fr 1fr;
