@@ -59,7 +59,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               className="get--in--touch--button green--color"
               onClick={toggleNavLinks}
             >
-              Get in Touch
+              Mail Us
             </a>
             <Icon
               icon="mingcute:close-fill"

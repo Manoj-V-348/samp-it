@@ -10,6 +10,7 @@ function HeaderCaption2() {
         SA<span className="green--color ">M</span>P IT
       </h1>
       <p className="company--motto">It's your Dream, We Design.</p>
+      <a href="https://cal.com/samp-it-offl">Book a Call!</a>
     </section>
   );
 }

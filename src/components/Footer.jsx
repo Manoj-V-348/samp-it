@@ -69,13 +69,15 @@ export default function Footer() {
             <div className="contact">
               <h2 className="bold--text">Contact Us</h2>
               <p>
-                Reach out to us today, and let's initiate your digital
-                transformation journey together, guided by our exceptional team.
+                Reach out to us today, and let's kickstart your social presence
+                together, guided by our exceptional team.
               </p>
             </div>
             <div className="copyright">
               <p>Copyright By@ SAMP IT - 2024</p>
-              <a href="#">Get Support</a>
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqZhfdCxWfzzPRjbDPgqgxXzDLvZsZXwhPXfNvZcNSSngTlZkcqfMbHqZgJkJxWltkwlSV">
+                Get Support
+              </a>
             </div>
           </div>
           <a className="scroll--top" href="#header">

@@ -32,18 +32,13 @@ function Why() {
                 Finds Its True Voice”
               </h2>
               <div className="why--details--container">
-                <div className="why--details why1">
-                  <h1 data-aos="fade-left">01</h1>
-                  <h2 data-aos="fade-left">
+                <div class="why--card">
+                  <p class="heading">
                     Unleash the Power of Storytelling: Content that Captivates &
                     Converts
-                  </h2>
-                  <p
-                    className="mild--color details--text"
-                    data-aos="fade-left"
-                    style={{ display: design1 ? "-webkit-box" : "block" }}
-                  >
-                    Today's consumers crave authenticity and connection. SAMP IT
+                  </p>
+                  <p>
+                    Today's consumers crave engagement and connection. SAMP IT
                     empowers your brand to tell its unique story through
                     captivating content that resonates with your target
                     audience. We don't just create content; we craft strategic
@@ -51,28 +46,17 @@ function Why() {
                     driving conversions. Our team of skilled writers and content
                     creators will develop engaging blog posts, social media
                     content, and website copy that speaks directly to your
-                    audience's needs and desires.{" "}
-                    <span className="bold--text">
-                      Partner with SAMP IT and watch your brand engagement soar.
-                    </span>
+                    audience's needs and desires.
                   </p>
-                  <div onClick={() => toggleDesign(changeDesign1)}>
-                    <p className="read--more">
-                      {design1 ? "read more..." : "show less..."}
-                    </p>
-                  </div>
+                  <p>Video Editing</p>
                 </div>
-                <div className="why--details why2">
-                  <h1 data-aos="fade-up">02</h1>
-                  <h2 data-aos="fade-up">
+
+                <div class="why--card">
+                  <p class="heading">
                     Amplify Your Voice and Reach: Social Media Strategies that
                     Ignite Engagement
-                  </h2>
-                  <p
-                    className="mild--color details--text"
-                    data-aos="fade-up"
-                    style={{ display: design2 ? "-webkit-box" : "block" }}
-                  >
+                  </p>
+                  <p>
                     The social media landscape is constantly evolving, and
                     navigating it effectively can be a challenge. SAMP IT takes
                     the guesswork out of your social media strategy. Our experts
@@ -81,17 +65,33 @@ function Why() {
                     sparks conversations and builds a loyal following. We'll
                     manage your social media channels, schedule captivating
                     posts, and foster meaningful interactions with your
-                    audience.{" "}
-                    <span className="bold--text">
-                      SAMP IT helps you amplify your brand voice and reach,
-                      putting you front and center in the online conversation.
-                    </span>
+                    audience.
                   </p>
-                  <div onClick={() => toggleDesign(changeDesign2)}>
-                    <p className="read--more">
-                      {design2 ? "read more..." : "show less..."}
-                    </p>
-                  </div>
+                  <p>Social Media Management</p>
+                </div>
+
+                <div class="why--card">
+                  <p class="heading">
+                    Craft a Website that Converts: User-Friendly Design Meets
+                    Strategic Optimization
+                  </p>
+                  <p>
+                    Your website is your online storefront, and first
+                    impressions matter. SAMP IT designs and develops beautiful,
+                    user-friendly websites that not only showcase your brand but
+                    also drive results. We'll create a website that's visually
+                    appealing, easy to navigate, and optimized for search
+                    engines. Our focus is on converting website visitors into
+                    loyal customers. SAMP IT implements best practices for user
+                    experience and search engine optimization (SEO), ensuring
+                    your website attracts the right audience and converts them
+                    into paying customers.
+                  </p>
+                  <p>Web Development</p>
+                </div>
+                {/*
+                 
+                
                 </div>
                 <div className="why--details why3">
                   <h1 data-aos="fade-left">03</h1>
@@ -125,10 +125,8 @@ function Why() {
                     </p>
                   </div>
                 </div>
+  */}
               </div>
-            </div>
-            <div className="saturation">
-              <img src={background} alt="bg" className="background--img" />
             </div>
           </div>
         </div>

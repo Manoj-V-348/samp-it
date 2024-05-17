@@ -8,14 +8,10 @@
   margin: 35px 0;
   font-family: "Poppins", sans-serif;
   position: relative;
+
+  background-image: linear-gradient(to right, #ef3f38, #fdcf00);
 }
-.why--section--container::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.75);
-}
+
 .background--img {
   position: absolute;
   width: 100%;
@@ -43,13 +39,13 @@
 }
 .why--front--area > h1 {
   font-size: 40px;
-  color: white;
+  color: black;
 }
 .why--front--area > h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin: 30px 0;
-  color: white;
+  margin: 20px 0;
+  color: black;
 }
 .why--details {
   padding: 20px 20px;
@@ -130,7 +126,7 @@
     margin: 70px 0;
   }
   .why--front--area > h2 {
-    margin: 60px 0;
+    margin: 30px 0;
     font-size: 35px;
   }
   .why--front--area > h1 {
@@ -152,4 +148,70 @@
   -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.why--card {
+  position: relative;
+
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.why--card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  margin: auto;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  z-index: -1;
+  scale: 1.01;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.why--card::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.why--card p:not(.heading) {
+  font-size: 14px;
+}
+
+.why--card p:last-child {
+  color: #e81cff;
+  font-weight: 600;
+}
+
+.why--card:hover::after {
+  filter: blur(20px);
+}
+
+.why--card:hover::before {
+  transform: scaleX(1.05) scaleY(1.05);
+}
+.why--card:hover {
+  scale: 1.025;
+  color: black;
 }

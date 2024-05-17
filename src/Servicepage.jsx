@@ -52,6 +52,11 @@ function Servicepage() {
           Ready to take your brand online? Contact SAMP IT today for a free
           consultation!
         </h1>
+        <div className="book--button">
+          <a href="https://cal.com/samp-it-offl" className="book--call">
+            Book a Call!
+          </a>
+        </div>
       </div>
     </>
   );

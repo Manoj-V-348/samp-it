@@ -12,6 +12,7 @@ function HeaderCaption() {
       <p className="company--motto">
         Your one-stop shop for a thriving online presence
       </p>
+      <a href="https://cal.com/samp-it-offl">Book a Call!</a>
     </section>
   );
 }
