@@ -21,47 +21,6 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <Element name="get-in-touch">
-          <div
-            className="get--in--touch--container"
-            id="get--in--touch--container"
-          >
-            <div className="get--in--touch--text" data-aos="fade-right">
-              <h1>Get In Touch</h1>
-              <p>Contact Us</p>
-              <img src={bgImg1} alt="bg--image" className="bg--image--footer" />
-            </div>
-
-            <div className="info company--mail" data-aos="fade-up">
-              <Icon
-                icon="icon-park-outline:mail-review"
-                color="#ef3f38"
-                width="60"
-              />
-              <p>sampitoffl@gmail.com</p>
-              <img
-                src={bgImg2}
-                alt="bg--image"
-                className="bg--image--footer footer-2"
-              />
-            </div>
-
-            <div className="info company--location" data-aos="fade-up">
-              <Icon
-                icon="mingcute:location-3-fill"
-                color="#ef3f38"
-                width="60"
-              />
-              <p>India</p>
-              <img
-                src={bgImg3}
-                alt="bg--image"
-                className="bg--image--footer footer-2"
-              />
-            </div>
-          </div>
-        </Element>
-
         <FormComponent />
 
         <div className="bottom--container">

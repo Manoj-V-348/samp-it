@@ -27,10 +27,7 @@ function Why() {
           <div className="why--section--container" loading="lazy">
             <div className="why--front--area">
               <h1 data-aos="fade-down">Why choose Us?</h1>
-              <h2 data-aos="fade-up">
-                "Redefine Possibilities: Digitraly, Where Digital Transformation
-                Finds Its True Voice”
-              </h2>
+
               <div className="why--details--container">
                 <div class="why--card">
                   <p class="heading">
@@ -89,43 +86,6 @@ function Why() {
                   </p>
                   <p>Web Development</p>
                 </div>
-                {/*
-                 
-                
-                </div>
-                <div className="why--details why3">
-                  <h1 data-aos="fade-left">03</h1>
-                  <h2 data-aos="fade-left">
-                    Craft a Website that Converts: User-Friendly Design Meets
-                    Strategic Optimization
-                  </h2>
-                  <p
-                    className="mild--color details--text"
-                    data-aos="fade-left"
-                    style={{ display: design3 ? "-webkit-box" : "block" }}
-                  >
-                    Your website is your online storefront, and first
-                    impressions matter. SAMP IT designs and develops beautiful,
-                    user-friendly websites that not only showcase your brand but
-                    also drive results. We'll create a website that's visually
-                    appealing, easy to navigate, and optimized for search
-                    engines. Our focus is on converting website visitors into
-                    loyal customers. SAMP IT implements best practices for user
-                    experience and search engine optimization (SEO), ensuring
-                    your website attracts the right audience and converts them
-                    into paying customers.{" "}
-                    <span className="bold--text">
-                      Partner with SAMP IT and watch your website become a
-                      powerful sales engine for your brand.
-                    </span>
-                  </p>
-                  <div onClick={() => toggleDesign(changeDesign3)}>
-                    <p className="read--more">
-                      {design3 ? "read more..." : "show less..."}
-                    </p>
-                  </div>
-                </div>
-  */}
               </div>
             </div>
           </div>
